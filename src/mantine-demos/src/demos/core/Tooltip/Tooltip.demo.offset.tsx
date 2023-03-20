@@ -8,10 +8,10 @@ import { Tooltip, Button } from '@mantine/core';
 function Demo() {
   return (
     <>
-      <Tooltip label="Default arrow" offset={20}>
+      <Tooltip label="Offset by 20" offset={20}>
         <Button variant="outline">20 offset</Button>
       </Tooltip>
-      <Tooltip label="Arrow with size" offset={-10}>
+      <Tooltip label="Offset by -10" offset={-10}>
         <Button variant="outline">-10 offset</Button>
       </Tooltip>
     </>
@@ -23,10 +23,10 @@ function Demo() {
 export function Demo() {
   return (
     <Group position="center">
-      <Tooltip label="Default arrow" offset={20}>
+      <Tooltip label="Offset by 20" offset={20}>
         <Button variant="outline">20 offset</Button>
       </Tooltip>
-      <Tooltip label="Arrow with size" offset={-10}>
+      <Tooltip label="Offset by -10" offset={-10}>
         <Button variant="outline">-10 offset</Button>
       </Tooltip>
     </Group>
